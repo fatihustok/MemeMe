@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF13C671B720BFA002CD02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF13C661B720BFA002CD02E /* AppDelegate.swift */; };
+		ADF13C691B720BFA002CD02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF13C681B720BFA002CD02E /* ViewController.swift */; };
+		ADF13C6C1B720BFA002CD02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF13C6A1B720BFA002CD02E /* Main.storyboard */; };
+		ADF13C6E1B720BFA002CD02E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF13C6D1B720BFA002CD02E /* Images.xcassets */; };
+		ADF13C711B720BFA002CD02E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF13C6F1B720BFA002CD02E /* LaunchScreen.xib */; };
+		ADF13C7D1B720BFA002CD02E /* MemeFatihAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF13C7C1B720BFA002CD02E /* MemeFatihAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF13C771B720BFA002CD02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF13C591B720BFA002CD02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF13C601B720BFA002CD02E;
+			remoteInfo = MemeFatihApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADF13C611B720BFA002CD02E /* MemeFatihApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeFatihApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF13C651B720BFA002CD02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF13C661B720BFA002CD02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF13C681B720BFA002CD02E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADF13C6B1B720BFA002CD02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF13C6D1B720BFA002CD02E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADF13C701B720BFA002CD02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADF13C761B720BFA002CD02E /* MemeFatihAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeFatihAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF13C7B1B720BFA002CD02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF13C7C1B720BFA002CD02E /* MemeFatihAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeFatihAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF13C5E1B720BFA002CD02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF13C731B720BFA002CD02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF13C581B720BFA002CD02E = {
+			isa = PBXGroup;
+			children = (
+				ADF13C631B720BFA002CD02E /* MemeFatihApp */,
+				ADF13C791B720BFA002CD02E /* MemeFatihAppTests */,
+				ADF13C621B720BFA002CD02E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF13C621B720BFA002CD02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF13C611B720BFA002CD02E /* MemeFatihApp.app */,
+				ADF13C761B720BFA002CD02E /* MemeFatihAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF13C631B720BFA002CD02E /* MemeFatihApp */ = {
+			isa = PBXGroup;
+			children = (
+				ADF13C661B720BFA002CD02E /* AppDelegate.swift */,
+				ADF13C681B720BFA002CD02E /* ViewController.swift */,
+				ADF13C6A1B720BFA002CD02E /* Main.storyboard */,
+				ADF13C6D1B720BFA002CD02E /* Images.xcassets */,
+				ADF13C6F1B720BFA002CD02E /* LaunchScreen.xib */,
+				ADF13C641B720BFA002CD02E /* Supporting Files */,
+			);
+			path = MemeFatihApp;
+			sourceTree = "<group>";
+		};
+		ADF13C641B720BFA002CD02E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF13C651B720BFA002CD02E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADF13C791B720BFA002CD02E /* MemeFatihAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF13C7C1B720BFA002CD02E /* MemeFatihAppTests.swift */,
+				ADF13C7A1B720BFA002CD02E /* Supporting Files */,
+			);
+			path = MemeFatihAppTests;
+			sourceTree = "<group>";
+		};
+		ADF13C7A1B720BFA002CD02E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF13C7B1B720BFA002CD02E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF13C601B720BFA002CD02E /* MemeFatihApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF13C801B720BFA002CD02E /* Build configuration list for PBXNativeTarget "MemeFatihApp" */;
+			buildPhases = (
+				ADF13C5D1B720BFA002CD02E /* Sources */,
+				ADF13C5E1B720BFA002CD02E /* Frameworks */,
+				ADF13C5F1B720BFA002CD02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeFatihApp;
+			productName = MemeFatihApp;
+			productReference = ADF13C611B720BFA002CD02E /* MemeFatihApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF13C751B720BFA002CD02E /* MemeFatihAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF13C831B720BFA002CD02E /* Build configuration list for PBXNativeTarget "MemeFatihAppTests" */;
+			buildPhases = (
+				ADF13C721B720BFA002CD02E /* Sources */,
+				ADF13C731B720BFA002CD02E /* Frameworks */,
+				ADF13C741B720BFA002CD02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF13C781B720BFA002CD02E /* PBXTargetDependency */,
+			);
+			name = MemeFatihAppTests;
+			productName = MemeFatihAppTests;
+			productReference = ADF13C761B720BFA002CD02E /* MemeFatihAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF13C591B720BFA002CD02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Refik Fatih Ustok";
+				TargetAttributes = {
+					ADF13C601B720BFA002CD02E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ADF13C751B720BFA002CD02E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ADF13C601B720BFA002CD02E;
+					};
+				};
+			};
+			buildConfigurationList = ADF13C5C1B720BFA002CD02E /* Build configuration list for PBXProject "MemeFatihApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF13C581B720BFA002CD02E;
+			productRefGroup = ADF13C621B720BFA002CD02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF13C601B720BFA002CD02E /* MemeFatihApp */,
+				ADF13C751B720BFA002CD02E /* MemeFatihAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF13C5F1B720BFA002CD02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF13C6C1B720BFA002CD02E /* Main.storyboard in Resources */,
+				ADF13C711B720BFA002CD02E /* LaunchScreen.xib in Resources */,
+				ADF13C6E1B720BFA002CD02E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF13C741B720BFA002CD02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF13C5D1B720BFA002CD02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF13C691B720BFA002CD02E /* ViewController.swift in Sources */,
+				ADF13C671B720BFA002CD02E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF13C721B720BFA002CD02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF13C7D1B720BFA002CD02E /* MemeFatihAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF13C781B720BFA002CD02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF13C601B720BFA002CD02E /* MemeFatihApp */;
+			targetProxy = ADF13C771B720BFA002CD02E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF13C6A1B720BFA002CD02E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF13C6B1B720BFA002CD02E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF13C6F1B720BFA002CD02E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF13C701B720BFA002CD02E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF13C7E1B720BFA002CD02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADF13C7F1B720BFA002CD02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF13C811B720BFA002CD02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemeFatihApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADF13C821B720BFA002CD02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemeFatihApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADF13C841B720BFA002CD02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MemeFatihAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeFatihApp.app/MemeFatihApp";
+			};
+			name = Debug;
+		};
+		ADF13C851B720BFA002CD02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MemeFatihAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeFatihApp.app/MemeFatihApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF13C5C1B720BFA002CD02E /* Build configuration list for PBXProject "MemeFatihApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF13C7E1B720BFA002CD02E /* Debug */,
+				ADF13C7F1B720BFA002CD02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF13C801B720BFA002CD02E /* Build configuration list for PBXNativeTarget "MemeFatihApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF13C811B720BFA002CD02E /* Debug */,
+				ADF13C821B720BFA002CD02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADF13C831B720BFA002CD02E /* Build configuration list for PBXNativeTarget "MemeFatihAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF13C841B720BFA002CD02E /* Debug */,
+				ADF13C851B720BFA002CD02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF13C591B720BFA002CD02E /* Project object */;
+}
