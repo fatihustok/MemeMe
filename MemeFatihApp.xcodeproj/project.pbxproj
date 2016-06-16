@@ -171,6 +171,8 @@
 		ADF13C591B720BFA002CD02E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Refik Fatih Ustok";
 				TargetAttributes = {
@@ -429,6 +431,7 @@
 				ADF13C821B720BFA002CD02E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADF13C831B720BFA002CD02E /* Build configuration list for PBXNativeTarget "MemeFatihAppTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +440,7 @@
 				ADF13C851B720BFA002CD02E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
